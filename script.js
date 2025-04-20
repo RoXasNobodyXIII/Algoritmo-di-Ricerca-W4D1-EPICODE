@@ -21,7 +21,6 @@ function trovaLavori(titolo, luogo) {
     const risultati = {
         lista: [],
         totale: 0,
-    };
 
     for (const lavoro of jobs) {
         const titoloLavoro = lavoro.title.toLowerCase();
