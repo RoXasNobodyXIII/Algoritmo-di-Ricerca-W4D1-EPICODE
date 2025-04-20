@@ -1,5 +1,5 @@
 document.getElementById('searchButton').addEventListener('click', () => {
-    const jobTitleInput = document.getElementById('jobTitle').value;
+    const jobTitleInput = document.getElementById('jobTitle').value; 
     const jobLocationInput = document.getElementById('jobLocation').value;
     const searchResults = trovaLavori(jobTitleInput, jobLocationInput);
 
